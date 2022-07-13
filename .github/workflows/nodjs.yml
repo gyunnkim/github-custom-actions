@@ -1,0 +1,12 @@
+name: test
+
+
+on: [ push ]
+
+jobs:
+  build:
+    runs-on: self-hosted
+    steps:
+    - name: 'add actions test'
+      uses: gyunnkim/github-custom-actions@master
+      id: test
